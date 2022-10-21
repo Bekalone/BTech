@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationFragment">
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:textColorHint="#A4A2AF"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/corners"
+        android:backgroundTint="@color/gray"
+        android:hint="@string/phone_number"
+        android:inputType="text"
+        android:paddingStart="14dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="14dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_register"
+        tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#A4A2AF"
+        android:background="@drawable/corners"
+        android:backgroundTint="@color/gray"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:paddingStart="14dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="14dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/et_phone_number"
+        tools:ignore="Autofill,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/et_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#A4A2AF"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/corners"
+        android:backgroundTint="@color/gray"
+        android:hint="@string/surname"
+        android:inputType="text"
+        android:paddingStart="14dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="14dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/et_name"
+        tools:ignore="Autofill,RtlSymmetry" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tl_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        android:textColorHint="#A4A2AF"
+        android:background="@drawable/corners"
+        app:layout_constraintTop_toBottomOf="@+id/et_surname"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="14dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="14dp"
+            android:textSize="16sp"
+            tools:ignore="Autofill,RtlSymmetry" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/tv_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/agreement"
+        android:textColor="@color/second_gray"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tl_password" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/accent"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="@string/creating_account"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_agreement" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/or_exit"
+        android:textColor="@color/blue"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_exit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
