@@ -9,4 +9,14 @@
     <string name="Enter">Войти</string>
     <string name="Or">Или</string>
     <string name="Create_an_account">Создать аккаунт</string>
+    <string name="Help_and_Support">Помощь и Поддержка</string>
+    <string name="History_Shop">История Покупок</string>
+    <string name="About_Us">О нас</string>
+    <string name="Сoupons">Купоны</string>
+    <string name="Favourites">Избранное</string>
+    <string name="Settings">Настройки</string>
+    <string name="Account">Аккаунт</string>
+    <string name="Number">996550550550</string>
+    <string name="Main_Name">Имя Главное</string>
+
 </resources>
