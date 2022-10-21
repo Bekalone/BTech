@@ -2,4 +2,11 @@
     <string name="app_name">BTech</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Log_in_to_your_account">Вход в аккаунт</string>
+    <string name="Enter_your_email">Введите почту</string>
+    <string name="Enter_the_password">Введите пароль</string>
+    <string name="Forgot_your_password">Забыли пароль?</string>
+    <string name="Enter">Войти</string>
+    <string name="Or">Или</string>
+    <string name="Create_an_account">Создать аккаунт</string>
 </resources>
