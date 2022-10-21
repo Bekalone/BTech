@@ -7,12 +7,13 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_marginTop="12dp"
         android:id="@+id/image_profile"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="12dp"
-        android:src="@drawable/spider"
+        android:background="@drawable/spider"
+        app:shapeAppearanceOverlay="@style/CornerRadius"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,6 +24,7 @@
         android:text="@string/main_name"
         android:textColor="#0B1124"
         android:textSize="20sp"
+
         android:fontFamily="@font/roboto_bold"
         app:layout_constraintStart_toEndOf="@id/image_profile"
         app:layout_constraintTop_toTopOf="parent"
