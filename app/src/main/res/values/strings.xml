@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">BTech</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -20,4 +20,13 @@
     <string name="getting_kod">Получить новый код</string>
     <string name="verification">Потвердить</string>
     <string name="kod_saved">Код потверждения отправлен на номер</string>
+    <string name="Help_and_support">Помощь и поддержка</string>
+    <string name="About_us">О нас</string>
+    <string name="Purchase_history">История покупок</string>
+    <string name="Coupons">Купоны</string>
+    <string name="Favourites">Избранное</string>
+    <string name="Settings">Настройка</string>
+    <string name="Account">Аккаунт</string>
+    <string name="_996550550550">+996550550550</string>
+    <string name="main_name" tools:ignore="TypographyEllipsis">Абдурахман Абдурахм...</string>
 </resources>
