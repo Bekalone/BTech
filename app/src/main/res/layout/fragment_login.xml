@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="176dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/roboto_bold"
+        android:letterSpacing="0.01"
+        android:lineHeight="32.4dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Вход в аккаунт"
+        android:textColor="#0B1124"
+        android:textFontWeight="600"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationY="-2.14dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/bg_et"
+        android:hint="Введите почту"
+        android:paddingStart="14dp"
+        android:paddingEnd="12dp"
+        android:textColorHint="#A4A2AF" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="16dp"
+        android:hint="Введите пароль"
+        android:textColorHint="#A4A2AF"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_et" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="23dp"
+        android:fontFamily="@font/roboto_bold"
+        android:letterSpacing="0.01"
+        android:lineHeight="18.9dp"
+        android:lineSpacingExtra="2sp"
+        android:layout_gravity="end"
+        android:text="Забыли пароль?"
+        android:textColor="#62A9FC"
+        android:layout_marginBottom="24dp"
+        android:textFontWeight="600"
+        android:textSize="14sp"
+        android:translationY="-1.25sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#F9FC62"
+        android:fontFamily="@font/roboto_bold"
+        android:lineHeight="24.3dp"
+        android:text="Войти"
+        android:textColor="#0B1124"
+        android:textFontWeight="600"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#605D74" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:fontFamily="@font/roboto"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="5sp"
+            android:text="Или"
+            android:textColor="#605D74"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#605D74" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_btn_social_network"
+            android:src="@drawable/ic_google" />
+
+        <ImageButton
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:background="@drawable/bg_btn_social_network"
+            android:src="@drawable/ic_facebook" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="71dp"
+        android:fontFamily="@font/roboto_bold"
+        android:letterSpacing="0.01"
+        android:lineHeight="18.9dp"
+        android:lineSpacingExtra="2sp"
+        android:text="Создать аккаунт"
+        android:textColor="#62A9FC"
+        android:textFontWeight="600"
+        android:textSize="14sp"
+        android:translationY="-1.25sp" />
+</LinearLayout>
