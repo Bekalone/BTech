@@ -29,4 +29,9 @@
     <string name="Account">Аккаунт</string>
     <string name="_996550550550">+996550550550</string>
     <string name="main_name" tools:ignore="TypographyEllipsis">Абдурахман Абдурахм...</string>
+    <string name="main">Главная</string>
+    <string name="new_products">Новое</string>
+    <string name="basket">Корзина</string>
+    <string name="profile">Профиль</string>
+
 </resources>

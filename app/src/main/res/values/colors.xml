@@ -7,8 +7,20 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="gray">#F7F7FC</color>
-    <color name="second_gray">#A4A2AF</color>
+    <color name="primary_1">#2E3C85</color>
+    <color name="primary_2">#62A9FC</color>
     <color name="accent">#F9FC62</color>
-    <color name="blue">#62A9FC</color>
+    <color name="secondary_peach">#FFB890</color>
+    <color name="secondary_pink">#FFB890</color>
+    <color name="secondary_cyan">#6DE9F4</color>
+    <color name="secondary_green">#A5F167</color>
+    <color name="light_20">#F1F0F3</color>
+    <color name="light_40">#D2D1D7</color>
+    <color name="dark_60">#A4A2AF</color>
+    <color name="dark_80">#605D74</color>
+    <color name="black_2">#0B1124</color>
+    <color name="success">#8EDE4D</color>
+    <color name="error">#FF7B7B</color>
+    <color name="secondary">#F7F7FC</color>
+    <color name="button_shadow">#C4C4C4</color>
 </resources>

@@ -3,22 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable-v24/corners.xml" value="0.1595" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/bg_btn_social_network.xml" value="0.1595" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/bg_et.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/bottom_navigation_style.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/bottom_navigation_style_background.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/bottom_navigation_text.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic__iconhome.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_basket.xml" value="0.1595" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_facebook_facebook_lite__iconlogovector_com_006.xml" value="0.1595" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_google.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_home.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_home_select.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_new.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_new_select.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_profile.xml" value="0.1595" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_profile_select.xml" value="0.1595" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/layout/bg_et.xml" value="0.25" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_login.xml" value="0.264" />
-        <entry key="..\:/Users/emil/AndroidStudioProjects/BTech/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1285" />
-        <entry key="..\:/Users/emil/AndroidStudioProjects/BTech/app/src/main/res/drawable/bg_btn_social_network.xml" value="0.1285" />
-        <entry key="..\:/Users/emil/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_google.xml" value="0.1285" />
-        <entry key="..\:/Users/emil/AndroidStudioProjects/BTech/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1285" />
-        <entry key="..\:/Users/emil/AndroidStudioProjects/BTech/app/src/main/res/layout/activity_main.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/emil/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/BTech/app/src/main/res/drawable-v24/corners.xml" value="0.1375" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_registration.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_verification.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_registration.xml" value="0.264" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/layout/fragment_verification.xml" value="0.25" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/BTech/app/src/main/res/menu/nav_menu.xml" value="0.25" />
       </map>
     </option>
   </component>
