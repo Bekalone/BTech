@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/main_name"
-        android:textColor="#0B1124"
+        android:textColor="@color/black_2"
         android:textSize="20sp"
 
         android:fontFamily="@font/roboto_bold"
@@ -37,7 +37,7 @@
         android:text="@string/_996550550550"
         app:layout_constraintTop_toBottomOf="@id/tv_name"
         android:layout_marginStart="12dp"
-        android:textColor="#605D74"
+        android:textColor="@color/dark_80"
         android:textSize="14sp"
         android:fontFamily="@font/roboto_bold"
         app:layout_constraintStart_toEndOf="@id/image_profile" />
@@ -53,101 +53,101 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:fontFamily="@font/roboto_bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"
             android:text="@string/Account"
             android:layout_marginTop="12dp"
-            android:textColor="#0B1124" />
+            android:textColor="@color/black_2" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginVertical="12dp"
-            android:background="#F1F0F3" />
+            android:background="@color/light_20" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:fontFamily="@font/roboto_bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"
             android:text="@string/Settings"
-            android:textColor="#0B1124" />
+            android:textColor="@color/black_2" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginVertical="12dp"
-            android:background="#F1F0F3" />
+            android:background="@color/light_20" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:fontFamily="@font/roboto_bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"
             android:text="@string/Favourites"
-            android:textColor="#0B1124" />
+            android:textColor="@color/black_2" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginVertical="12dp"
-            android:background="#F1F0F3" />
+            android:background="@color/light_20" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:fontFamily="@font/roboto_bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"
             android:text="@string/Coupons"
-            android:textColor="#0B1124" />
+            android:textColor="@color/black_2" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginVertical="12dp"
-            android:background="#F1F0F3" />
+            android:background="@color/light_20" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:fontFamily="@font/roboto_bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"
             android:text="@string/Purchase_history"
-            android:textColor="#0B1124" />
+            android:textColor="@color/black_2" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginVertical="12dp"
-            android:background="#F1F0F3" />
+            android:background="@color/light_20" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:fontFamily="@font/roboto_bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"
             android:text="@string/About_us"
-            android:textColor="#0B1124" />
+            android:textColor="@color/black_2" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginVertical="12dp"
-            android:background="#F1F0F3" />
+            android:background="@color/light_20" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:fontFamily="@font/roboto_bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"
             android:text="@string/Help_and_support"
-            android:textColor="#0B1124" />
+            android:textColor="@color/black_2" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginVertical="12dp"
-            android:background="#F1F0F3" />
+            android:background="@color/light_20" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

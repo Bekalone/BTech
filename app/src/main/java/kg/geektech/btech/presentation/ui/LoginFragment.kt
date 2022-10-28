@@ -1,4 +1,4 @@
-package kg.geektech.btech
+package kg.geektech.btech.presentation.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

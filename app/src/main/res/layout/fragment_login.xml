@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FEFEFF"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <TextView
@@ -16,7 +16,7 @@
         android:letterSpacing="0.01"
         android:lineSpacingExtra="4dp"
         android:text="@string/Log_in_to_your_account"
-        android:textColor="#0B1124"
+        android:textColor="@color/black_2"
         android:textSize="24sp"
         android:textStyle="bold"
         android:translationY="-2.14dp" />
@@ -28,9 +28,11 @@
         android:layout_marginTop="48dp"
         android:background="@drawable/bg_et"
         android:hint="@string/Enter_your_email"
+        android:textColor="@color/black_2"
+        android:textSize="16sp"
         android:paddingStart="14dp"
         android:paddingEnd="12dp"
-        android:textColorHint="#A4A2AF"
+        android:textColorHint="@color/dark_60"
         tools:ignore="Autofill,TextFields" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -39,7 +41,7 @@
         android:layout_marginHorizontal="20dp"
         android:layout_marginVertical="16dp"
         android:hint="@string/Enter_the_password"
-        android:textColorHint="#A4A2AF"
+        android:textColorHint="@color/dark_60"
         app:boxStrokeWidth="0dp"
         app:boxStrokeWidthFocused="0dp"
         app:endIconMode="password_toggle">
@@ -47,7 +49,9 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/bg_et" />
+            android:textSize="16sp"
+            android:textColor="@color/black_2"
+            android:background="@drawable/bg_et"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -61,19 +65,19 @@
         android:lineSpacingExtra="2sp"
         android:layout_gravity="end"
         android:text="@string/Forgot_your_password"
-        android:textColor="#62A9FC"
+        android:textColor="@color/primary_2"
         android:layout_marginBottom="24dp"
-        android:textSize="14sp"
-        android:translationY="-1.25sp" />
+        android:textSize="14sp"/>
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:backgroundTint="#F9FC62"
+        android:backgroundTint="@color/accent"
         android:fontFamily="@font/roboto_bold"
         android:text="@string/Enter"
-        android:textColor="#0B1124"
+        app:cornerRadius="10dp"
+        android:textColor="@color/black_2"
         android:textSize="18sp" />
 
     <LinearLayout
@@ -87,7 +91,7 @@
             android:layout_width="70dp"
             android:layout_height="1dp"
             android:layout_gravity="center"
-            android:background="#605D74" />
+            android:background="@color/dark_80" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -97,14 +101,14 @@
             android:letterSpacing="0.01"
             android:lineSpacingExtra="5sp"
             android:text="@string/Or"
-            android:textColor="#605D74"
+            android:textColor="@color/dark_80"
             android:textSize="16sp" />
 
         <View
             android:layout_width="70dp"
             android:layout_height="1dp"
             android:layout_gravity="center"
-            android:background="#605D74" />
+            android:background="@color/dark_80" />
     </LinearLayout>
 
     <LinearLayout
@@ -136,10 +140,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="71dp"
         android:fontFamily="@font/roboto_bold"
-        android:letterSpacing="0.01"
-        android:lineSpacingExtra="2sp"
         android:text="@string/Create_an_account"
-        android:textColor="#62A9FC"
-        android:textSize="14sp"
-        android:translationY="-1.25sp" />
+        android:textColor="@color/primary_2"
+        android:textSize="14sp"/>
 </LinearLayout>
