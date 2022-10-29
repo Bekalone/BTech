@@ -61,6 +61,7 @@
         android:id="@+id/container_bottom_with_drop_downs"
         android:layout_width="match_parent"
         android:layout_height="417dp"
+        android:background="@drawable/bg_container_circle"
         app:layout_constraintTop_toBottomOf="@id/container_top_with_view_pager"
         tools:ignore="MissingConstraints">
 
@@ -157,8 +158,8 @@
                 android:layout_height="1dp"
                 android:backgroundTint="@color/light_20"
                 app:layout_constraintEnd_toEndOf="@id/tv_arrow_down_drop_down"
-                app:layout_constraintStart_toStartOf="@id/tv_arrow_down_drop_down"
-                app:layout_constraintTop_toBottomOf="@id/tv_arrow_down_drop_down" />
+                app:layout_constraintStart_toStartOf="@id/tv_color_drop_down"
+                app:layout_constraintTop_toBottomOf="@id/tv_color_drop_down" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -270,8 +271,8 @@
                 android:layout_height="1dp"
                 android:backgroundTint="@color/light_20"
                 app:layout_constraintEnd_toEndOf="@id/tv_arrow_down_drop_down_two"
-                app:layout_constraintStart_toStartOf="@id/tv_arrow_down_drop_down_two"
-                app:layout_constraintTop_toBottomOf="@id/tv_arrow_down_drop_down_two" />
+                app:layout_constraintStart_toStartOf="@id/tv_storage_drop_down"
+                app:layout_constraintTop_toBottomOf="@id/tv_storage_drop_down" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -381,8 +382,8 @@
                 android:layout_height="1dp"
                 android:backgroundTint="@color/light_20"
                 app:layout_constraintEnd_toEndOf="@id/tv_arrow_down_drop_down_three"
-                app:layout_constraintStart_toStartOf="@id/tv_arrow_down_drop_down_three"
-                app:layout_constraintTop_toBottomOf="@id/tv_arrow_down_drop_down_three" />
+                app:layout_constraintStart_toStartOf="@id/tv_reviews_drop_down"
+                app:layout_constraintTop_toBottomOf="@id/tv_reviews_drop_down" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
