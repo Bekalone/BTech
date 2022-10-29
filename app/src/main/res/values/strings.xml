@@ -42,6 +42,10 @@
     <string name="reviews_in_russian">Отзывы</string>
     <string name="image_heart">image heart</string>
     <string name="add_to_bin_in_russian">Добавь в корзину</string>
-    <string name="namee">Имя</string>
+    <string name="name">Имя</string>
+    <string name="_489">рассрочка от 489с./ месяц</string>
+    <string name="samsung_galaxy_a_52_5g_eu">Samsung Galaxy A 52 5G (EU)</string>
+    <string name="_45_000_c">45 000 cом</string>
+    <string name="find_your_gadget">Найди свой гаджет!</string>
 
 </resources>
