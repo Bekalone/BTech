@@ -33,5 +33,15 @@
     <string name="new_products">Новое</string>
     <string name="basket">Корзина</string>
     <string name="profile">Профиль</string>
+    <string name="model_of_phone">model of phone</string>
+    <string name="color_in_russian">Цвет</string>
+    <string name="purple_in_russian">Фиолет.</string>
+    <string name="storage_in_russian">Память</string>
+    <string name="_64">64Гб</string>
+    <string name="_128">128Гб</string>
+    <string name="_256">256Гб</string>
+    <string name="reviews_in_russian">Отзывы</string>
+    <string name="image_heart">image heart</string>
+    <string name="add_to_bin_in_russian">Добавь в корзину</string>
 
 </resources>
