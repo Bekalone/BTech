@@ -44,7 +44,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/bg_et"
-        android:hint="@string/name"
+        android:hint="@string/namee"
         android:inputType="text"
         android:paddingStart="14dp"
         android:paddingTop="16dp"
