@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/detailFragment">
+    app:startDestination="@id/homeFragment">
 
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="kg.geektech.btech.presentation.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="kg.geektech.btech.presentation.ui.DetailFragment"
+        android:label="DetailFragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="kg.geektech.btech.presentation.ui.LoginFragment"
+        android:label="LoginFragment" />
     <fragment
         android:id="@+id/profileFragment"
         android:name="kg.geektech.btech.presentation.ui.ProfileFragment"
         android:label="ProfileFragment" />
     <fragment
-        android:id="@+id/detailFragment"
-        android:name="kg.geektech.btech.presentation.ui.DetailFragment"
-        android:label="DetailFragment" />
+        android:id="@+id/registrationFragment"
+        android:name="kg.geektech.btech.presentation.ui.RegistrationFragment"
+        android:label="RegistrationFragment" />
+    <fragment
+        android:id="@+id/verificationFragment"
+        android:name="kg.geektech.btech.presentation.ui.VerificationFragment"
+        android:label="VerificationFragment" />
+    <fragment
+        android:id="@+id/newFragment"
+        android:name="kg.geektech.btech.presentation.ui.NewFragment"
+        android:label="fragment_new"
+        tools:layout="@layout/fragment_new" />
 </navigation>

@@ -47,5 +47,10 @@
     <string name="samsung_galaxy_a_52_5g_eu">Samsung Galaxy A 52 5G (EU)</string>
     <string name="_45_000_c">45 000 cом</string>
     <string name="find_your_gadget">Найди свой гаджет!</string>
+    <string name="current">Актуальное</string>
+    <string name="popular_categories">Популярные категории</string>
+    <string name="goods_of_the_Day">Товары дня</string>
+    <string name="new_year_discounts">Новогодние скидки</string>
+    <string name="smartphones">Смартфоны</string>
 
 </resources>
