@@ -54,7 +54,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 
-    // dots indicator
+    //dots indicator
     implementation("com.tbuonomo:dotsindicator:4.3")
 
 

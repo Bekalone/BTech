@@ -43,7 +43,7 @@
             app:layout_constraintStart_toStartOf="@id/img_model_of_phone"
             app:layout_constraintTop_toBottomOf="@id/img_model_of_phone"
             app:progressMode="false"
-            app:selectedDotColor="@color/primary_2" />
+            app:selectedDotColor="@color/primary_2"/>
 
         <TextView
             android:id="@+id/tv_arrow_back"

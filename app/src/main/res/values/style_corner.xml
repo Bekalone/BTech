@@ -11,4 +11,8 @@
         <item name="android:maxHeight">20dip</item>
     </style>
 
+    <style name="Circular">
+        <item name="cornerSize">50%</item>
+    </style>
+
 </resources>
