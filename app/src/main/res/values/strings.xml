@@ -52,5 +52,22 @@
     <string name="goods_of_the_Day">Товары дня</string>
     <string name="new_year_discounts">Новогодние скидки</string>
     <string name="smartphones">Смартфоны</string>
+    <string name="back">назад</string>
+    <string name="Basket">Корзина</string>
+    <string name="image_gadget">фото гаджета</string>
+    <string name="samsung_galaxy_a52_5g_eu">Смартфон Samsung Galaxy A52 5G EU</string>
+    <string name="_45000">45000 сом</string>
+    <string name="minus">-</string>
+    <string name="_1">1</string>
+    <string name="plus">+</string>
+    <string name="arrow">стрелка</string>
+    <string name="memory">Память :</string>
+    <string name="color">Цвет:</string>
+    <string name="white">Белый</string>
+    <string name="equipment">Комплектация :</string>
+    <string name="standard">Стандард</string>
+    <string name="total">Итого :</string>
+    <string name="_135000">135000 сом</string>
+    <string name="pay">Оплатить</string>
 
 </resources>
