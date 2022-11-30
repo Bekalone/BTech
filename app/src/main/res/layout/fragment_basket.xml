@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:gravity="start"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+            android:contentDescription="@string/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7.5dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/Basket"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/transparent_n">
+
+        <LinearLayout
+            android:id="@+id/image_container"
+            android:layout_width="70dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/model_of_phone"
+                android:contentDescription="@string/image_gadget" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/phone_name"
+            android:layout_width="180dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/samsung_galaxy_a52_5g_eu"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/image_container"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="70dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/_45000"
+            app:layout_constraintStart_toEndOf="@id/image_container"
+            app:layout_constraintTop_toBottomOf="@id/phone_name" />
+
+        <ImageView
+            android:id="@+id/down_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="18dp"
+            android:src="@drawable/arrow_down"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/arrow" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="60dp"
+            android:layout_height="20.48dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toEndOf="@id/price"
+            app:layout_constraintTop_toBottomOf="@id/phone_name">
+
+            <Button
+                android:id="@+id/btn_one"
+                android:layout_width="18.56dp"
+                android:layout_height="wrap_content"
+                style="@style/MyButtonStyleSmall"
+                android:text="@string/minus"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="5.12dp"
+                android:layout_height="16dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/_1"
+                app:layout_constraintEnd_toEndOf="@id/btn_two"
+                app:layout_constraintStart_toStartOf="@id/btn_one"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_two"
+                style="@style/MyButtonStyleSmall"
+                android:layout_width="18.56dp"
+                android:text="@string/plus"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/transparent_n">
+
+        <LinearLayout
+            android:id="@+id/image_container2"
+            android:layout_width="70dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/model_of_phone"
+                android:contentDescription="@string/image_gadget" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/phone_name2"
+            android:layout_width="180dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/samsung_galaxy_a52_5g_eu"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/image_container2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/price2"
+            android:layout_width="70dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/_45000"
+            app:layout_constraintStart_toEndOf="@id/image_container2"
+            app:layout_constraintTop_toBottomOf="@id/phone_name2" />
+
+        <ImageView
+            android:id="@+id/down_arrow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="18dp"
+            android:src="@drawable/arrow_top"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/arrow" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="60dp"
+            android:layout_height="20.48dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toEndOf="@id/price2"
+            app:layout_constraintTop_toBottomOf="@id/phone_name2">
+
+            <Button
+                android:id="@+id/btn_one1"
+                android:layout_width="18.56dp"
+                android:layout_height="wrap_content"
+                style="@style/MyButtonStyleSmall"
+                android:text="@string/minus"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_text1"
+                android:layout_width="5.12dp"
+                android:layout_height="16dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/_1"
+                app:layout_constraintEnd_toEndOf="@id/btn_two2"
+                app:layout_constraintStart_toStartOf="@id/btn_one1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_two2"
+                style="@style/MyButtonStyleSmall"
+                android:layout_width="18.56dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/memory"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/memory"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_container2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/_128"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/memory"
+            app:layout_constraintTop_toBottomOf="@id/image_container2" />
+
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="37dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="34dp"
+            android:text="@string/color"
+            app:layout_constraintStart_toEndOf="@id/memory"
+            app:layout_constraintTop_toTopOf="@id/price2" />
+
+        <ImageView
+            android:id="@+id/circle_image"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/bg_circle_image"
+            app:layout_constraintStart_toEndOf="@id/color"
+            app:layout_constraintTop_toBottomOf="@id/price2"
+            android:contentDescription="@string/_45000" />
+
+        <TextView
+            android:id="@+id/white"
+            android:layout_width="45dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="42dp"
+            android:text="@string/white"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/circle_image"
+            app:layout_constraintTop_toBottomOf="@id/phone_name2" />
+
+        <TextView
+            android:id="@+id/equipment"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/equipment"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/memory" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginTop="9dp"
+            android:text="@string/standard"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/equipment"
+            app:layout_constraintTop_toBottomOf="@id/color" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/total"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/_135000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="@color/accent"
+        android:text="@string/pay"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

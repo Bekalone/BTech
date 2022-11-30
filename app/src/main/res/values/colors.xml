@@ -25,4 +25,5 @@
     <color name="secondary">#F7F7FC</color>
     <color name="button_shadow">#C4C4C4</color>
     <color name="transparent">#00000080</color>
+    <color name="transparent_n">#F7F7FC</color>
 </resources>
