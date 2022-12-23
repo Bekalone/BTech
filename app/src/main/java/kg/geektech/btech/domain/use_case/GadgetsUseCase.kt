@@ -1,4 +1,8 @@
 package kg.geektech.btech.domain.use_case
 
-class GadgetsUseCase {
+import kg.geektech.btech.domain.repository.GadgetRepository
+import javax.inject.Inject
+
+class GadgetsUseCase @Inject constructor(private val gadgetRepository: GadgetRepository) {
+    fun getAllGadgets() = gadgetRepository.getAllGadgets()
 }
