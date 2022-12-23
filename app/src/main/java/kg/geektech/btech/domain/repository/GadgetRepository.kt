@@ -1,11 +1,12 @@
 package kg.geektech.btech.domain.repository
 
-import kg.geektech.btech.data.network.model.GadgetDTO
+import kg.geektech.btech.core.Resource
+import kg.geektech.btech.domain.model.Gadget
 import kotlinx.coroutines.flow.Flow
 
 interface GadgetRepository {
-    suspend fun getProducts(): Flow<List<GadgetDTO>>
-    suspend fun getDetailProduct(id: Int): Flow<GadgetDTO>
-    suspend fun addGadgetBasket(gadgetDTO: GadgetDTO): Flow<Unit>
-    suspend fun deleteGadgetBasket(gadgetDTO: GadgetDTO): Flow<Unit>
+    fun getAllGadgets(): Flow<Resource<List<Gadget>>>
+    fun getDetailGadgets(id: Int): Flow<Resource<Gadget>>
+    fun addGadgetBasket(gadget: Gadget): Flow<Resource<Unit>>
+    fun deleteGadgetBasket(gadget: Gadget): Flow<Resource<Unit>>
 }

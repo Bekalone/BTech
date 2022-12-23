@@ -1,7 +1,6 @@
 package com.example.seventhmfirsthm.data.local
 
 import androidx.room.*
-import kg.geektech.btech.data.network.model.GadgetDTO
 
 @Dao
 interface GadgetDao {

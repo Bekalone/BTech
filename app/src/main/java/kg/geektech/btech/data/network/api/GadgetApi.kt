@@ -8,7 +8,7 @@ import retrofit2.http.Query
 interface GadgetApi {
 
     @GET("products")
-    suspend fun getProducts(
+    suspend fun getAllGadget(
         @Query("Phone") phone: String = kg.geektech.btech.BuildConfig.PHONE,
         @Query("Name") name: String = kg.geektech.btech.BuildConfig.NAME,
         @Query("Surname") surName: String = kg.geektech.btech.BuildConfig.SURNAME,
@@ -16,7 +16,7 @@ interface GadgetApi {
     ): GadgetDTO
 
     @GET("products/{id}")
-    suspend fun getDetailProduct(
+    suspend fun getDetailGadget(
         @Path("id") id: Int,
         @Query("Phone") phone: String = kg.geektech.btech.BuildConfig.PHONE,
         @Query("Name") name: String = kg.geektech.btech.BuildConfig.NAME,
