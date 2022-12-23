@@ -31,8 +31,8 @@ object AppModule {
     }
     @Provides
     @Singleton
-    fun provideGadgetRepository(api:GadgetApi):GadgetRepository{
-        return GadgetRepositoryImp(api)
+    fun provideGadgetRepository(api:GadgetApi,gadgetDao: GadgetDao):GadgetRepository{
+        return GadgetRepositoryImp(api,gadgetDao)
     }
 
     @Singleton
@@ -45,8 +45,4 @@ object AppModule {
     @Provides
     fun provideGadgetDao(gadgetDatabase: GadgetDatabase) = gadgetDatabase.noteDao()
 
-    /*@Provides
-    fun provideGadgetRepository(gadgetDao: GadgetDao): GadgetRepository {
-        return GadgetRepositoryImp(gadgetDao)
-    }*/
 }
