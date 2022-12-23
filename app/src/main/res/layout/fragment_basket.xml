@@ -20,8 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="9dp"
             android:layout_marginTop="18dp"
-            android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
-            android:contentDescription="@string/back" />
+            android:contentDescription="@string/back"
+            android:src="@drawable/ic_baseline_arrow_back_ios_new_24" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,12 +94,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="18dp"
+            android:contentDescription="@string/arrow"
             android:src="@drawable/arrow_down"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:contentDescription="@string/arrow" />
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <androidx.cardview.widget.CardView
             android:layout_width="60dp"
             android:layout_height="20.48dp"
             android:layout_marginStart="75dp"
@@ -108,38 +108,41 @@
             app:layout_constraintStart_toEndOf="@id/price"
             app:layout_constraintTop_toBottomOf="@id/phone_name">
 
-            <Button
-                android:id="@+id/btn_one"
-                android:layout_width="18.56dp"
-                android:layout_height="wrap_content"
-                style="@style/MyButtonStyleSmall"
-                android:text="@string/minus"
-                android:textColor="@color/black"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="20.48dp">
 
-            <TextView
-                android:id="@+id/tv_text"
-                android:layout_width="5.12dp"
-                android:layout_height="16dp"
-                android:backgroundTint="@color/white"
-                android:text="@string/_1"
-                app:layout_constraintEnd_toEndOf="@id/btn_two"
-                app:layout_constraintStart_toStartOf="@id/btn_one"
-                app:layout_constraintTop_toTopOf="parent" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_one"
+                    style="@style/MyButtonStyleSmall"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:backgroundTint="@color/light"
+                    android:padding="0dp"
+                    android:text="@string/minus" />
 
-            <Button
-                android:id="@+id/btn_two"
-                style="@style/MyButtonStyleSmall"
-                android:layout_width="18.56dp"
-                android:text="@string/plus"
-                android:textColor="@color/black"
-                android:layout_height="wrap_content"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:id="@+id/tv_text"
+                    android:layout_width="5.12dp"
+                    android:layout_height="16dp"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/_1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_two"
+                    style="@style/MyButtonStyleSmall"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@color/light"
+                    android:padding="0dp"
+                    android:text="@string/plus"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -202,12 +205,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="18dp"
+            android:contentDescription="@string/arrow"
             android:src="@drawable/arrow_top"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:contentDescription="@string/arrow" />
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <androidx.cardview.widget.CardView
             android:layout_width="60dp"
             android:layout_height="20.48dp"
             android:layout_marginStart="75dp"
@@ -216,35 +219,41 @@
             app:layout_constraintStart_toEndOf="@id/price2"
             app:layout_constraintTop_toBottomOf="@id/phone_name2">
 
-            <Button
-                android:id="@+id/btn_one1"
-                android:layout_width="18.56dp"
-                android:layout_height="wrap_content"
-                style="@style/MyButtonStyleSmall"
-                android:text="@string/minus"
-                android:textColor="@color/black"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="20.48dp">
 
-            <TextView
-                android:id="@+id/tv_text1"
-                android:layout_width="5.12dp"
-                android:layout_height="16dp"
-                android:backgroundTint="@color/white"
-                android:text="@string/_1"
-                app:layout_constraintEnd_toEndOf="@id/btn_two2"
-                app:layout_constraintStart_toStartOf="@id/btn_one1"
-                app:layout_constraintTop_toTopOf="parent" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_one2"
+                    style="@style/MyButtonStyleSmall"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:backgroundTint="@color/light"
+                    android:padding="0dp"
+                    android:text="@string/minus" />
 
-            <Button
-                android:id="@+id/btn_two2"
-                style="@style/MyButtonStyleSmall"
-                android:layout_width="18.56dp"
-                android:layout_height="wrap_content"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:id="@+id/tv_text2"
+                    android:layout_width="5.12dp"
+                    android:layout_height="16dp"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/_1" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_two2"
+                    style="@style/MyButtonStyleSmall"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@color/light"
+                    android:padding="0dp"
+                    android:text="@string/plus"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/memory"
@@ -283,10 +292,10 @@
             android:layout_height="16dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="18dp"
+            android:contentDescription="@string/_45000"
             android:src="@drawable/bg_circle_image"
             app:layout_constraintStart_toEndOf="@id/color"
-            app:layout_constraintTop_toBottomOf="@id/price2"
-            android:contentDescription="@string/_45000" />
+            app:layout_constraintTop_toBottomOf="@id/price2" />
 
         <TextView
             android:id="@+id/white"
