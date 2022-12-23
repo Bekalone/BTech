@@ -1,16 +1,12 @@
 package kg.geektech.btech.data.repository
 
-import com.example.seventhmfirsthm.data.local.GadgetDao
+import kg.geektech.btech.data.local.GadgetDao
 import kg.geektech.btech.core.BaseRepository
 import kg.geektech.btech.core.Resource
-import kg.geektech.btech.core.gadgetDtoToNote
 import kg.geektech.btech.data.network.api.GadgetApi
 import kg.geektech.btech.domain.model.Gadget
 import kg.geektech.btech.domain.repository.GadgetRepository
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.emitAll
-import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
 class GadgetRepositoryImp @Inject constructor(

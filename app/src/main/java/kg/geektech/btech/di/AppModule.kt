@@ -2,7 +2,7 @@ package kg.geektech.btech.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.seventhmfirsthm.data.local.GadgetDao
+import kg.geektech.btech.data.local.GadgetDao
 import com.example.seventhmfirsthm.data.local.GadgetDatabase
 import dagger.Module
 import dagger.Provides

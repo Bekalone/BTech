@@ -1,5 +1,8 @@
 package kg.geektech.btech.data.network.model
 
+import androidx.room.Entity
+
+@Entity(tableName = "gadget")
 data class GadgetDTO(
     val image: String? = null, // http://164.92.190.147:8006/media/media/phone.jpg
     val price: Int? = null, // 100000
