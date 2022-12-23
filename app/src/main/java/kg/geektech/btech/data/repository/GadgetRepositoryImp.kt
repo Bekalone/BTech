@@ -8,11 +8,11 @@ import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
 class GadgetRepositoryImp @Inject constructor(private val api: GadgetApi,private val gadgetDao: GadgetDao) : GadgetRepository {
-    override suspend fun getDetailProduct(): Flow<List<GadgetDTO>> {
+    override suspend fun getProducts(): Flow<List<GadgetDTO>> {
         TODO("Not yet implemented")
     }
 
-    override suspend fun getProducts(id: Int): Flow<List<GadgetDTO>> {
+    override suspend fun getDetailProduct(id: Int): Flow<GadgetDTO> {
         TODO("Not yet implemented")
     }
 
